@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>PS4 7.50 - 7.55 FW Host v1.5 by GamerHack</title>
-<link rel="stylesheet" href="../style.css">
-<script>
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
-document.cookie = 'kex=1';
-</script>
+    <meta charset="utf-8">
+    <title>PS4 7.50 - 7.55 FW Host v1.5 by GamerHack</title>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        function DLProgress(e) { Percent = (Math.round(e.loaded / e.total * 100)); document.getElementById = "display:none"; window.msgs.innerHTML = "Installing Offline Cache: " + Percent + "%"; }
+        function DisplayCacheProgress() { setTimeout(function () { window.msgs.innerHTML = "Cache Installed Successfully ✔"; }, 1000); setTimeout(function () { window.msgs.innerHTML = "Now Close And Re-Open Your Browser ..."; }, 3000); } window.applicationCache.addEventListener("progress", DLProgress, false); window.applicationCache.oncached = function (e) { DisplayCacheProgress(); }; window.applicationCache.onupdateready = function (e) { DisplayCacheProgress(); };
+        document.cookie = 'kex=1';
+    </script>
 </head>
 <body>
 <div id="main-section">
@@ -64,7 +65,7 @@ document.cookie = 'kex=1';
 <br>
 <button class="btn btn-web" onclick=close_section() style="margin-bottom: 310px"> Return </button>
 </div>
-<h1 style="margin-top: 30px;color: yellow;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color: #f31414;margin-left: 10px;">@sleirsgoevy</a><a style="color: white;margin-left: 10px;">ChendoChap</a><a href="https://twitter.com/_AlAzif" style="color: #f31414;margin-left: 10px;">@_AlAzif</a><a style="color: white;margin-left: 10px;">And Many More Developers...</a></h1>
+<h1 style="color:white; text-align:center;"><a href="https://itfy-edu.net/GC/" style="color:white; text-align:right;">صنعاء - شارع الستين - جولة الولاعة - خلف الدينة الليبية ت/778284118-775776703</a></h1>
 <script>
 function load_mods(){
 document.getElementById("mods-section").style.display = "block";
